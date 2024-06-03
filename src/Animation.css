@@ -1,0 +1,97 @@
+.hero-animation {
+  position: relative;
+  animation-name: bottomToTop;
+  animation-duration: 2s;
+  z-index: 0;
+}
+
+@keyframes bottomToTop {
+  0% {
+    left: 0px;
+    top: 190px;
+  }
+  100% {
+    left: 0px;
+    top: 0px;
+  }
+}
+.fleep1-animation {
+  position: relative;
+  animation-name: fleep1Animation;
+  animation-duration: 3s;
+  z-index: 0;
+}
+
+@keyframes fleep1Animation {
+  0% {
+    left: -200px;
+    top: 150px;
+  }
+  50% {
+    left: -200px;
+    top: 150px;
+  }
+  100% {
+    left: 0px;
+    top: 149px;
+  }
+}
+.fleep2-animation {
+  position: relative;
+  animation-name: fleep2Animation;
+  animation-duration: 2s;
+  z-index: 0;
+}
+
+@keyframes fleep2Animation {
+  0% {
+    left: 0px;
+    bottom: 200px;
+  }
+  70% {
+    left: 0px;
+    bottom: 200px;
+  }
+  100% {
+    left: 0px;
+    bottom: 33px;
+  }
+}
+.fleep3-animation {
+  position: relative;
+  animation-name: fleep3Animation;
+  animation-duration: 1s;
+  z-index: 0;
+}
+
+@keyframes fleep3Animation {
+  0% {
+    left: 200px;
+    top: 117px;
+  }
+  100% {
+    left: 0px;
+    top: 117px;
+  }
+}
+
+.fleep1 {
+  position: absolute;
+  z-index: 2;
+  margin-top: 10px;
+}
+.fleep2 {
+  position: absolute;
+  margin-bottom: 100px;
+  margin-left: 100px;
+}
+.fleep3 {
+  position: absolute;
+  margin-top: 90px;
+}
+.fleepbackground {
+  position: absolute;
+  margin-bottom: 250px;
+  z-index: 0;
+}
+

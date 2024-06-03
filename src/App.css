@@ -1,0 +1,33 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+input[type="file"]::file-selector-button {
+  font-family: Inter;
+  font-size: 14px;
+  border: 1px solid #fb561e;
+  padding: 0.2em 0.6em;
+  border-radius: 1em;
+  background-color: #f4d8ce;
+  /* transition: 1s; */
+}
+
+.ytvideo{
+  width: 80vw;
+  height: 550px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .ytvideo{
+    width: 90vw;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .ytvideo{
+    /* width: 70vw; */
+    height: 300px;
+  }
+}
