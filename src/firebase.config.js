@@ -3,14 +3,14 @@ import { initializeApp } from "firebase/app";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "32784ggsdsssj2pm6NeW1AkbKmPEpBmlYD3HEcXM",
-  authDomain: "dssdsdsdbsss.firebaseapp.com",
-  databaseURL: "https:/edfdfewrewd1269b-default-rtdb.firebaseio.com",
-  projectId: "driversfewdsfss",
-  storageBucket: "drivefereew269sssb.appspot.com",
-  messagingSenderId: "5edfewdwerw306098",
-  appId: "1:523724383060:web:ewrwewe92196b8141ec198",
-  measurementId: "edfwerwd1WSSS"
+  apiKey: "33543546NeW1AkbKmPEpBmlYD3HEcXM",
+  authDomain: "dss4534rsss.firebaseapp.com",
+  databaseURL: "https:/erer23erewd1269b-default-rtdb.firebaseio.com",
+  projectId: "driewr3dffss",
+  storageBucket: "ddferf9sssb.appspot.com",
+  messagingSenderId: "5efdferf6098",
+  appId: "1:523724383060:web:edfedf196b8141ec198",
+  measurementId: "erferdfedfWSSS"
 };
 
 // Initialize Firebase
